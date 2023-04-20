@@ -7,6 +7,7 @@ public class LoadNewScene : MonoBehaviour
 {
     public void NextScene(string scene)
     {
+        Debug.Log("Arrived here");
         SceneManager.LoadScene(scene);
     }
 }
