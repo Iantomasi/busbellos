@@ -1,0 +1,520 @@
+fileFormatVersion: 2
+guid: a5d621480c7b73d4a8f8bd5bd3fc7418
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: AngryChefWalking_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 628.6666
+        width: 156.16667
+        height: 314.33334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 826189d403ada8c4582c1d73fcf2a979
+      internalID: -470281738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AngryChefWalking_1
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 628.6666
+        width: 156.16667
+        height: 314.33334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5f210e1289a6dc42806a7e7cb0a109f
+      internalID: -775668872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AngryChefWalking_2
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 628.6666
+        width: 156.16667
+        height: 314.33334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d087bf8328f6b764a881198ed201a694
+      internalID: -80357428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AngryChefWalking_3
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 628.6666
+        width: 156.16667
+        height: 314.33334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 992bd67c0de850943bc2c2e17736ce0e
+      internalID: -1038256051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AngryChefWalking_4
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 628.6666
+        width: 156.16667
+        height: 314.33334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 159f2f8d5f621ad40a85bb8b7892c2ff
+      internalID: -1540179633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AngryChefWalking_5
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 628.6666
+        width: 156.16667
+        height: 314.33334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d5546282f7bcd14c83df6f8583703d1
+      internalID: 1764763440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AngryChefWalking_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 314.66666
+        width: 156.16667
+        height: 314.33334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a09e1d5764e35a4489f31af280c2566c
+      internalID: -751722124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AngryChefWalking_7
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 314.66666
+        width: 156.16667
+        height: 314.33334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a85f5e048a4e92e4da70218cfce7a709
+      internalID: -19123572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AngryChefWalking_8
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 314.66666
+        width: 156.16667
+        height: 314.33334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d7f056156b767046b48b6cb55422641
+      internalID: 373515705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AngryChefWalking_9
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 314.66666
+        width: 156.16667
+        height: 314.33334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d33d1e62aaae54f448096715e79401f8
+      internalID: -1942305655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AngryChefWalking_10
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 314.66666
+        width: 156.16667
+        height: 314.33334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0dd913076a5ef2479bc51ea4f680719
+      internalID: 2069208956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AngryChefWalking_11
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 314.66666
+        width: 156.16667
+        height: 314.33334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1a8dc6aa84362a47a8a7b5d68d19144
+      internalID: 1631503061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AngryChefWalking_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0.6666565
+        width: 156.16667
+        height: 314.33334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fb8f4c3073f8cd45a8e44da8d3c9b51
+      internalID: 167353717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AngryChefWalking_13
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 0.6666565
+        width: 156.16667
+        height: 314.33334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c0b53f8559cedc409fd89a4f0e1b931
+      internalID: -4643912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AngryChefWalking_14
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 0.6666565
+        width: 156.16667
+        height: 314.33334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60d6f8c24e39be44d92ef3dd86a04bd7
+      internalID: 1374213595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AngryChefWalking_15
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 0.6666565
+        width: 156.16667
+        height: 314.33334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 004ae6a3a7e26ee489ff40c8f891a2d9
+      internalID: 1114295853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AngryChefWalking_16
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 0.6666565
+        width: 156.16667
+        height: 314.33334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7375a377a798a21419eaf16c9d72ae65
+      internalID: -1160488283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AngryChefWalking_17
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 0.6666565
+        width: 156.16667
+        height: 314.33334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da8b4e0c600919b4a9a90eea6f43ed87
+      internalID: 357084723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      AngryChefWalking_15: 1114295853
+      AngryChefWalking_16: -1160488283
+      AngryChefWalking_5: 1764763440
+      AngryChefWalking_11: 1631503061
+      AngryChefWalking_8: 373515705
+      AngryChefWalking_4: -1540179633
+      AngryChefWalking_3: -1038256051
+      AngryChefWalking_1: -775668872
+      AngryChefWalking_7: -19123572
+      AngryChefWalking_10: 2069208956
+      AngryChefWalking_0: -470281738
+      AngryChefWalking_13: -4643912
+      AngryChefWalking_6: -751722124
+      AngryChefWalking_9: -1942305655
+      AngryChefWalking_14: 1374213595
+      AngryChefWalking_2: -80357428
+      AngryChefWalking_12: 167353717
+      AngryChefWalking_17: 357084723
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
