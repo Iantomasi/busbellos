@@ -1,0 +1,1708 @@
+fileFormatVersion: 2
+guid: 3f2ffdc696e5b944db0f6a73893f13e2
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: waiterFinal 2_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 1068
+        width: 55
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 976436ce0d1c3d14b9bbdc10cb5dfe6a
+      internalID: 1837927774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: waiterFinal 2_1
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 1068
+        width: 55
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce9177a7a40d71442abe06bbbb75586c
+      internalID: 460960599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: waiterFinal 2_2
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 1068
+        width: 55
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e6de0ec8325f9d45b1f995228057759
+      internalID: -1449698453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: waiterFinal 2_3
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 1068
+        width: 55
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d96e006206d32e46886e5f981fd03aa
+      internalID: -46712621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: waiterFinal 2_4
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 1068
+        width: 55
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93f34fe16ddf96244a92251e967fad3a
+      internalID: 107820670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: waiterFinal 2_5
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 1068
+        width: 55
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e04f4829091e3094d9401b7dae6186d9
+      internalID: -799594819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: waiterFinal 2_6
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 972
+        width: 55
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db56628f9d6858e4b8db61003ce7d7b0
+      internalID: -577223028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: waiterFinal 2_7
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 972
+        width: 55
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68ae888f937d7c74fa1e33012e1d74dd
+      internalID: -2029974602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: waiterFinal 2_8
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 972
+        width: 55
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88f0ff2a28cbbf84191f3a340120a0bf
+      internalID: -569892153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: waiterFinal 2_9
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 972
+        width: 55
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca18f9216d5ad8346988e946b7ba6220
+      internalID: -323370209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: waiterFinal 2_10
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 972
+        width: 55
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9af34d146a02fdc408e583d01476d1a7
+      internalID: 11022570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: waiterFinal 2_11
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 972
+        width: 55
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f9d64fe31b87c64bb1a2268fd08686e
+      internalID: -430808145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: waiterFinal 2_12
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 876
+        width: 55
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21a9cd4646c05a9428715c363bc8b2e7
+      internalID: -2113810025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: waiterFinal 2_13
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 876
+        width: 55
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f20570d12d0a9c44593123f090cb053c
+      internalID: -1094161087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: waiterFinal 2_14
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 876
+        width: 55
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c65f13e7121607438d0766a35b37cc6
+      internalID: -2050976854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: waiterFinal 2_15
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 876
+        width: 55
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04dd5c6ab5e5e5d408f52a41f9b407a9
+      internalID: -930876212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: waiterFinal 2_16
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 876
+        width: 55
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f78f45ecaeb7dbf4daedc0644e69bbec
+      internalID: -511311188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: waiterFinal 2_17
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 876
+        width: 55
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dab1abbf8cc48f14a9b171008693b514
+      internalID: -99296445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: waiterFinal 2_18
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 780
+        width: 55
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3fc15065d8048d438820da8cec11e3d
+      internalID: 1981486196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: waiterFinal 2_19
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 780
+        width: 55
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c8de3a3510524c448be2bb50d2e7a68
+      internalID: -1628363647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: waiterFinal 2_20
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 780
+        width: 55
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3917b83e63ff8745a3d35d16179c5e5
+      internalID: 1913695936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: waiterFinal 2_21
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 780
+        width: 55
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b8a9416bfb583344881b715f3be159b
+      internalID: 1174232240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: waiterFinal 2_22
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 780
+        width: 55
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97bcd52eb793a754aad43bed48e58b36
+      internalID: 207092088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: waiterFinal 2_23
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 780
+        width: 55
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1df95c209290a494ca62889e7bebc571
+      internalID: 1143882463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: waiterFinal 2_24
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 684
+        width: 55
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a058e3dd406edf54fb277754625a487a
+      internalID: 553912091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: waiterFinal 2_25
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 684
+        width: 55
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85382cd1a4697014ca8ab31a008f159d
+      internalID: 1751938286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: waiterFinal 2_26
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 684
+        width: 55
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b98dbbc25e729d46bd3a22336d27b5c
+      internalID: -1055614593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: waiterFinal 2_27
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 684
+        width: 55
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a0261314aa0f0c42845bdc771f4f568
+      internalID: 1043125667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: waiterFinal 2_28
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 684
+        width: 55
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98cd7deb1f76c4d489cab61189ebc3e6
+      internalID: 1069567396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: waiterFinal 2_29
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 684
+        width: 55
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a57042195fdd49c43aec3bceb0fe990a
+      internalID: 449829427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: waiterFinal 2_30
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 588
+        width: 55
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e32f0c4b78c3ce1468d55adaa8e4026d
+      internalID: -1809659355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: waiterFinal 2_31
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 588
+        width: 55
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75135b1eca6683b439354b627ae96f4f
+      internalID: -946642865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: waiterFinal 2_32
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 588
+        width: 55
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40b248c18bc536f428125a82875392e6
+      internalID: 427232638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: waiterFinal 2_33
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 588
+        width: 55
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e13e3b056f90464c834df734ad6deff
+      internalID: -1056902107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: waiterFinal 2_34
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 588
+        width: 55
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 256ecd6438123284b8296d17e199311e
+      internalID: 151649304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: waiterFinal 2_35
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 588
+        width: 55
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d685f739e10b69449fc1cbb14c82094
+      internalID: -1448853614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: waiterFinal 2_36
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 492
+        width: 55
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 992bae61ef3ae2642a67a33ee0546e91
+      internalID: -133348809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: waiterFinal 2_37
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 492
+        width: 55
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5eb6a2b73f4b6894a90117e5c639eda1
+      internalID: 511427100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: waiterFinal 2_38
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 492
+        width: 55
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5d9f8a18bb917d41848aa5069413c26
+      internalID: 387382400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: waiterFinal 2_39
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 492
+        width: 55
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72bbd62cf51a35342ae35b2920aaae2c
+      internalID: -896881668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: waiterFinal 2_40
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 492
+        width: 55
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d752e73c8fc6cd0418abac7231ff993b
+      internalID: 1790049967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: waiterFinal 2_41
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 492
+        width: 55
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5854311fa1266bc4bb2f8c489fc16a43
+      internalID: -128528723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: waiterFinal 2_42
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 396
+        width: 55
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 628ccbde609446442b3dacf49fd66b64
+      internalID: -956542005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: waiterFinal 2_43
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 396
+        width: 55
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 480cbce088c7be4489150bd70572eae6
+      internalID: 1740781268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: waiterFinal 2_44
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 396
+        width: 55
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dba5b80ebec3302479a843a53e2ab7f4
+      internalID: 457232474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: waiterFinal 2_45
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 396
+        width: 55
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d551ab82ba857746b171393ae4eb740
+      internalID: -1915070244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: waiterFinal 2_46
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 396
+        width: 55
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2c8908a4a67c8748889f6484f5f33ca
+      internalID: 1521078777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: waiterFinal 2_47
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 396
+        width: 55
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00fbc52d16ffbd34d8cceaeffb41b600
+      internalID: 1746245087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: waiterFinal 2_48
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 300
+        width: 55
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31df5108210cf7746a70d22f3888578b
+      internalID: -1618850984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: waiterFinal 2_49
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 300
+        width: 55
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73c998d0fe8775145ae7a5e0f9ba6613
+      internalID: 172213538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: waiterFinal 2_50
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 300
+        width: 55
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e461d6f2ae34dc344b5d6cb154df9ec7
+      internalID: -993747267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: waiterFinal 2_51
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 300
+        width: 55
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a52af67e8fb55a24ca7408fdd9e4b7d8
+      internalID: 422545131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: waiterFinal 2_52
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 300
+        width: 55
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61dc45ff145adb0418e6a8da4ff7b842
+      internalID: -1177526434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: waiterFinal 2_53
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 300
+        width: 55
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b57dbb78a2fb90c4abecfea79bf54d69
+      internalID: 480887094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: waiterFinal 2_54
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 204
+        width: 55
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f76062ad03ea68458e9f2fe64f8ef3b
+      internalID: -749892266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: waiterFinal 2_55
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 204
+        width: 55
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3483f6c218340e49b26924af6b7c308
+      internalID: -303679082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: waiterFinal 2_56
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 204
+        width: 55
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86d62894231a0a24fb80b4c3c9a06734
+      internalID: -1047411659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: waiterFinal 2_57
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 204
+        width: 55
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a10f73dd6a6db04287ac4e76fd8c29c
+      internalID: -741140240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: waiterFinal 2_58
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 204
+        width: 55
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 772c4d05740ba1d43b3037a9509ad728
+      internalID: -1298806106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: waiterFinal 2_59
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 204
+        width: 55
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ae45faa89d08ec47b9e18f523d5b7b2
+      internalID: -1324126821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: waiterFinal 2_60
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 108
+        width: 55
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea18b8abd726f14448e3e23d82ccf04d
+      internalID: 1606864903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: waiterFinal 2_61
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 108
+        width: 55
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dfa3f2178f656e44bb0fb4671f061d7
+      internalID: -94441791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: waiterFinal 2_62
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 108
+        width: 55
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9356446cde7e67f43b6483c93e315c6c
+      internalID: -887815940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: waiterFinal 2_63
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 108
+        width: 55
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f3ce5af520057044bc8a4406e1bb71f
+      internalID: -2140983870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: waiterFinal 2_64
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 108
+        width: 55
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed8ac865dc252e44f81d5b9000e8435e
+      internalID: -319488512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: waiterFinal 2_65
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 108
+        width: 55
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bac933b50ec91ca4d8ef20ac3ba79627
+      internalID: 196599429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: waiterFinal 2_66
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 12
+        width: 55
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a36d12ee5a42ac0489ca6c2fe061de22
+      internalID: 1889884505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: waiterFinal 2_67
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 12
+        width: 55
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29fcb63a82cea3b429b7823732d1764c
+      internalID: 15584011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: waiterFinal 2_68
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 12
+        width: 55
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 563be115a2012c346afb21653272ddf4
+      internalID: -1035875402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: waiterFinal 2_69
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 12
+        width: 55
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f751aa07919066448ae54a87c2e4f74b
+      internalID: 431903982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: waiterFinal 2_70
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 12
+        width: 55
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd949458ba5af5e4b944eff47f305e1a
+      internalID: 1094883280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: waiterFinal 2_71
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 12
+        width: 55
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e349d7b673ed5145842cbf723627e70
+      internalID: -1219593875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      waiterFinal 2_3: -46712621
+      waiterFinal 2_0: 1837927774
+      waiterFinal 2_2: -1449698453
+      waiterFinal 2_30: -1809659355
+      waiterFinal 2_59: -1324126821
+      waiterFinal 2_57: -741140240
+      waiterFinal 2_8: -569892153
+      waiterFinal 2_5: -799594819
+      waiterFinal 2_21: 1174232240
+      waiterFinal 2_50: -993747267
+      waiterFinal 2_62: -887815940
+      waiterFinal 2_71: -1219593875
+      waiterFinal 2_16: -511311188
+      waiterFinal 2_23: 1143882463
+      waiterFinal 2_25: 1751938286
+      waiterFinal 2_68: -1035875402
+      waiterFinal 2_11: -430808145
+      waiterFinal 2_64: -319488512
+      waiterFinal 2_38: 387382400
+      waiterFinal 2_34: 151649304
+      waiterFinal 2_19: -1628363647
+      waiterFinal 2_20: 1913695936
+      waiterFinal 2_7: -2029974602
+      waiterFinal 2_1: 460960599
+      waiterFinal 2_13: -1094161087
+      waiterFinal 2_63: -2140983870
+      waiterFinal 2_32: 427232638
+      waiterFinal 2_31: -946642865
+      waiterFinal 2_40: 1790049967
+      waiterFinal 2_66: 1889884505
+      waiterFinal 2_65: 196599429
+      waiterFinal 2_36: -133348809
+      waiterFinal 2_60: 1606864903
+      waiterFinal 2_18: 1981486196
+      waiterFinal 2_53: 480887094
+      waiterFinal 2_26: -1055614593
+      waiterFinal 2_45: -1915070244
+      waiterFinal 2_51: 422545131
+      waiterFinal 2_52: -1177526434
+      waiterFinal 2_69: 431903982
+      waiterFinal 2_28: 1069567396
+      waiterFinal 2_39: -896881668
+      waiterFinal 2_61: -94441791
+      waiterFinal 2_14: -2050976854
+      waiterFinal 2_67: 15584011
+      waiterFinal 2_4: 107820670
+      waiterFinal 2_49: 172213538
+      waiterFinal 2_54: -749892266
+      waiterFinal 2_24: 553912091
+      waiterFinal 2_47: 1746245087
+      waiterFinal 2_43: 1740781268
+      waiterFinal 2_56: -1047411659
+      waiterFinal 2_33: -1056902107
+      waiterFinal 2_29: 449829427
+      waiterFinal 2_46: 1521078777
+      waiterFinal 2_9: -323370209
+      waiterFinal 2_17: -99296445
+      waiterFinal 2_42: -956542005
+      waiterFinal 2_55: -303679082
+      waiterFinal 2_48: -1618850984
+      waiterFinal 2_70: 1094883280
+      waiterFinal 2_58: -1298806106
+      waiterFinal 2_6: -577223028
+      waiterFinal 2_44: 457232474
+      waiterFinal 2_15: -930876212
+      waiterFinal 2_10: 11022570
+      waiterFinal 2_12: -2113810025
+      waiterFinal 2_41: -128528723
+      waiterFinal 2_37: 511427100
+      waiterFinal 2_22: 207092088
+      waiterFinal 2_27: 1043125667
+      waiterFinal 2_35: -1448853614
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
