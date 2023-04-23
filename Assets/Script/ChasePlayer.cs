@@ -26,9 +26,9 @@ public class ChasePlayer : MonoBehaviour
         float val_x = Input.GetAxis("Horizontal");
         float val_y = Input.GetAxis("Vertical");
 
-        if (val_y < 0 && val_x > 3)//then set direction to 2
+        if (val_y < 0)//then set direction to 2
         {
-            animator.SetInteger("direction", (int)MoveDirection.RIGHT);
+            animator.SetInteger("direction", (int)MoveDirection.DOWN);
         }
 
         else if (val_y > 0) //then set direction to 1
