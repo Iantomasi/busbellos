@@ -340,18 +340,29 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 35
+    m_FontSize: 60
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
-    m_MaxSize: 40
+    m_MaxSize: 70
     m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: New Text
+  m_Text: 'If the family health bar reaches 0%, then the game is over
+
+
+    If the
+    player does not reset tables quickly enough, then the enemy is spawned
+
+
+    If
+    the player is caught by the enemy before the end of the shift, then the game
+    is over
+
+'
 --- !u!222 &1130301001
 CanvasRenderer:
   m_ObjectHideFlags: 0
