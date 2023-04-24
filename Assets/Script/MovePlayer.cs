@@ -54,6 +54,9 @@ public class MovePlayer : MonoBehaviour
 
         }
 
+        // step 3 add rb2d.moveposition
+
+
         transform.position += new Vector3(val_x, val_y, 0).normalized * speed * Time.deltaTime;
         Debug.Log(transform.position);
 
