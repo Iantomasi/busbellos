@@ -13,11 +13,11 @@ public class TableScript : MonoBehaviour
     bool tableIsFull = false;
     bool canClean = false;
     GameObject dirtyPlate;
-    //BusboyScript busboyScript;
+    BusboyScript busboyScript;
     // Start is called before the first frame update
     void Start()
     {
-      // busboyScript = GameObject.FindGameObjectWithTag("busboy").GetComponent<BusboyScript>();
+       busboyScript = GameObject.FindGameObjectWithTag("busboy").GetComponent<BusboyScript>();
     }
 
     // Update is called once per frame
@@ -36,7 +36,7 @@ public class TableScript : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.C) && canClean)
             {
                
-                /*busboyScript.handsAreFull = true;*/
+                busboyScript.handsAreFull = true;
                 Destroy(dirtyPlate);
                 isDirty = false;
                 tableIsFull = false;
@@ -46,7 +46,7 @@ public class TableScript : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (this.isDirty /*&& !busboyScript.handsAreFull*/)
+        if (this.isDirty && !busboyScript.handsAreFull)
         {
             if (collision.gameObject.tag == "busboy")
             {
