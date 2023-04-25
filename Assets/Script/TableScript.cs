@@ -35,7 +35,7 @@ public class TableScript : MonoBehaviour
         {
             if (Input.GetKeyDown(KeyCode.C) && canClean)
             {
-               
+           
                 busboyScript.handsAreFull = true;
                 Destroy(dirtyPlate);
                 isDirty = false;

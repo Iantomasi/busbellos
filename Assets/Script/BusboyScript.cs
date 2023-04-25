@@ -17,9 +17,6 @@ public class BusboyScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (handsAreFull)
-        {
-            instruction.text = "Carrying Dishes...";
-        }
+        
     }
 }

@@ -8,6 +8,7 @@ TagManager:
   - table
   - plate
   - busboy
+  - dirty
   layers:
   - Default
   - TransparentFX
