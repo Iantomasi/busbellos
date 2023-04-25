@@ -32,6 +32,7 @@ public class SinkScript : MonoBehaviour
                 busboyScript.handsAreFull = false;
                 GameObject dirtyDish=Instantiate(dirtyPlate,this.transform.position,Quaternion.identity);
                 dirtyDish.tag = "dirty";
+                dirtyDish.transform.rotation= Quaternion.Euler(0f, 0f, -90f);
                 Destroy(dirtyDish, 10f);
                 
             }
