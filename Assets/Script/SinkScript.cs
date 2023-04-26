@@ -16,7 +16,7 @@ public class SinkScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        busboyScript = GameObject.FindGameObjectWithTag("busboy").GetComponent<BusboyScript>();
+        busboyScript = GameObject.FindGameObjectWithTag("Player").GetComponent<BusboyScript>();
     }
 
     // Update is called once per frame
@@ -48,7 +48,7 @@ public class SinkScript : MonoBehaviour
     {
         if (busboyScript.handsAreFull)
         {
-            if (collision.gameObject.tag == "busboy")
+            if (collision.gameObject.tag == "Player")
             {
                 isColliding = true;
 
@@ -58,7 +58,7 @@ public class SinkScript : MonoBehaviour
 
     private void OnCollisionExit2D(Collision2D collision)
     {
-        if (collision.gameObject.tag == "busboy")
+        if (collision.gameObject.tag == "Player")
         {
             instruction.text = "";
             isColliding=false;

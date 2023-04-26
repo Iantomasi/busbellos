@@ -58,7 +58,7 @@ public class MovePlayer : MonoBehaviour
 
 
         transform.position += new Vector3(val_x, val_y, 0).normalized * speed * Time.deltaTime;
-        Debug.Log(transform.position);
+        //Debug.Log(transform.position);
 
         
     }
