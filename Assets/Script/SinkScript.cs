@@ -11,12 +11,14 @@ public class SinkScript : MonoBehaviour
     BusboyScript busboyScript;
     [SerializeField]
     GameObject dirtyPlate;
+    FamilyHealthBar healthBar;
 
     bool isColliding = false;
     // Start is called before the first frame update
     void Start()
     {
         busboyScript = GameObject.FindGameObjectWithTag("Player").GetComponent<BusboyScript>();
+        healthBar = GameObject.FindGameObjectWithTag("Player").GetComponent<FamilyHealthBar>();
     }
 
     // Update is called once per frame
@@ -28,13 +30,13 @@ public class SinkScript : MonoBehaviour
             instruction.text = "Press Key C to drop dishes in the sink";
             if (Input.GetKeyDown(KeyCode.C))
             {
-
+                healthBar.Heal();
                 busboyScript.handsAreFull = false;
                 GameObject dirtyDish=Instantiate(dirtyPlate,this.transform.position,Quaternion.identity);
                 dirtyDish.tag = "dirty";
                 dirtyDish.transform.rotation= Quaternion.Euler(0f, 0f, -90f);
                 Destroy(dirtyDish, 10f);
-                
+                instruction.text = "";
             }
         }
         else if (busboyScript.handsAreFull)
