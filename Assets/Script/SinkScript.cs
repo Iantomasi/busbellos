@@ -18,7 +18,7 @@ public class SinkScript : MonoBehaviour
     void Start()
     {
         busboyScript = GameObject.FindGameObjectWithTag("Player").GetComponent<BusboyScript>();
-        healthBar = GameObject.FindGameObjectWithTag("Player").GetComponent<FamilyHealthBar>();
+        healthBar = GameObject.Find("HealthBar").GetComponent<FamilyHealthBar>();
     }
 
     // Update is called once per frame

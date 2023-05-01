@@ -14,6 +14,7 @@ public class TableScript : MonoBehaviour
     bool canClean = false;
     GameObject dirtyPlate;
     BusboyScript busboyScript;
+
     // Start is called before the first frame update
     void Start()
     {

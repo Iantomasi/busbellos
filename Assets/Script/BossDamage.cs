@@ -22,7 +22,9 @@ public class BossDamage : MonoBehaviour
     {
        if(enemy.gameObject.CompareTag("Player")) {
 
-            enemy.gameObject.GetComponent<FamilyHealthBar>().health -= healthDamage;
+            var healthBar = GameObject.Find("HealthBar").GetComponent<FamilyHealthBar>();
+            
+           healthBar.health -= healthDamage;
         }
     }
 
