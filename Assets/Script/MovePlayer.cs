@@ -7,6 +7,10 @@ public class MovePlayer : MonoBehaviour
 
     Animator animator;
     public float speed;
+    public float minX;
+    public float minY;
+    public float maxX;
+    public float maxY;
 
 
     // Start is called before the first frame update
@@ -50,12 +54,11 @@ public class MovePlayer : MonoBehaviour
         }
 
         // step 3 add rb2d.moveposition
-
-
-        transform.position += new Vector3(val_x, val_y, 0).normalized * speed * Time.deltaTime;
+        Vector3 playerPosition = transform.position += new Vector3(val_x, val_y, 0).normalized * speed * Time.deltaTime;
+        playerPosition.x = Mathf.Clamp(playerPosition.x, minX, maxX);
+        playerPosition.y = Mathf.Clamp(playerPosition.y, minY, maxY);
+        transform.position = playerPosition;
         Debug.Log(transform.position);
-
-        
     }
 }
 
