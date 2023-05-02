@@ -12,10 +12,7 @@ public class MovePlayer : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
         animator = GetComponent<Animator>();
-
-
     }
 
     // Update is called once per frame
@@ -35,12 +32,10 @@ public class MovePlayer : MonoBehaviour
             animator.SetInteger("direction", (int)MoveDirectionPlayer.UP);
         }
 
-
         else if (val_x < 0) //then set direction to 3
         {
             animator.SetInteger("direction", (int)MoveDirectionPlayer.LEFT);
         }
-
 
         else if (val_x > 0) //then set direction to 4
         {
@@ -58,7 +53,7 @@ public class MovePlayer : MonoBehaviour
 
 
         transform.position += new Vector3(val_x, val_y, 0).normalized * speed * Time.deltaTime;
-        //Debug.Log(transform.position);
+        Debug.Log(transform.position);
 
         
     }
