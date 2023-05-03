@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
+using UnityEngine.SceneManagement;
+
 public class FamilyHealthBar : MonoBehaviour
 {
     public float maxHealth = 100f;
@@ -25,9 +27,16 @@ public class FamilyHealthBar : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+       /*
         if (health <= 0f)
         {
            Die();
+        }
+       */
+
+        if (health <= 0f)
+        {
+            SceneManager.LoadScene("GameOver");
         }
     }
 
