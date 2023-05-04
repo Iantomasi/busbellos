@@ -14,10 +14,8 @@ public class SinkScript : MonoBehaviour
     FamilyHealthBar healthBar;
 
 
-    [SerializeField]
-    int scoreValue = 20;
-
-    Text text;
+    public Text scoreHolder;
+    public int scoreValue = 20;
 
     bool isColliding = false;
     // Start is called before the first frame update
@@ -25,6 +23,7 @@ public class SinkScript : MonoBehaviour
     {
         busboyScript = GameObject.FindGameObjectWithTag("Player").GetComponent<BusboyScript>();
         healthBar = GameObject.Find("HealthBar").GetComponent<FamilyHealthBar>();
+        scoreHolder = GameObject.Find("ScoreText").GetComponent<Text>();
     }
 
     // Update is called once per frame
@@ -44,8 +43,9 @@ public class SinkScript : MonoBehaviour
                 Destroy(dirtyDish, 10f);
                 instruction.text = "";
 
-                ScoreManager.playerScore += scoreValue;
-                text.text = ScoreManager.playerScore.ToString();
+                Score.scoreCount += scoreValue;
+                scoreHolder.text = Score.scoreCount.ToString();
+
                
             }
         }
