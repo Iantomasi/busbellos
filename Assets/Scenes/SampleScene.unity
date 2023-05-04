@@ -2831,7 +2831,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a32e9241b61a2a4c8ba58bd80d8d126, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 2132706965}
+  player: {fileID: 2132706965}
   speed: 2
 --- !u!95 &723283775
 Animator:
@@ -12858,6 +12858,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   instruction: {fileID: 654182050}
   dirtyPlate: {fileID: 1059892529}
+  scoreHolder: {fileID: 0}
   scoreValue: 20
 --- !u!114 &1725055530
 MonoBehaviour:

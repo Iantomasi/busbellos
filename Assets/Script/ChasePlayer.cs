@@ -8,14 +8,11 @@ public class ChasePlayer : MonoBehaviour
 
     Animator animator;
 
-
-    public GameObject target;
-   // private Vector3 target;
+    private Vector3 target;
+    public GameObject player;
     public float speed;
     private float distance;
     NavMeshAgent agent;
-
-    //public float bossDistance;
 
 
     private void Awake()
@@ -34,8 +31,8 @@ public class ChasePlayer : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //SetTargetPosition();
-        // SetAgentPosition();
+        SetTargetPosition();
+         SetAgentPosition();
 
         float val_x = Input.GetAxis("Horizontal");
         float val_y = Input.GetAxis("Vertical");
@@ -63,29 +60,27 @@ public class ChasePlayer : MonoBehaviour
         }
 
 
-        distance = Vector2.Distance(transform.position, target.transform.position);
+        /*distance = Vector2.Distance(transform.position, target.transform.position);
         Vector2 direction = target.transform.position - transform.position;
         direction.Normalize();
         float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
 
         transform.position = Vector2.MoveTowards(this.transform.position, target.transform.position, speed * Time.deltaTime);
-        //transform.rotation = Quaternion.Euler(Vector3.forward * angle);
+        //transform.rotation = Quaternion.Euler(Vector3.forward * angle);*/
 
 
     }
-    /*void SetTargetPosition()
+    void SetTargetPosition()
     {
-        if (Input.GetMouseButton(0))
-        {
-            target = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-        }
+    
+            target = player.transform.position;
     }
     void SetAgentPosition()
     {
         agent.SetDestination(new Vector3(target.x, target.y, transform.position.z));
     }
-}*/
 }
+
 
 public enum MoveDirection
 {
