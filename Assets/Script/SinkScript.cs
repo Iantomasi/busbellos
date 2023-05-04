@@ -13,7 +13,11 @@ public class SinkScript : MonoBehaviour
     GameObject dirtyPlate;
     FamilyHealthBar healthBar;
 
-    Text score;
+
+    [SerializeField]
+    int scoreValue = 20;
+
+    Text text;
 
     bool isColliding = false;
     // Start is called before the first frame update
@@ -21,8 +25,6 @@ public class SinkScript : MonoBehaviour
     {
         busboyScript = GameObject.FindGameObjectWithTag("Player").GetComponent<BusboyScript>();
         healthBar = GameObject.Find("HealthBar").GetComponent<FamilyHealthBar>();
-
-        score =  GameObject.FindGameObjectWithTag("score").GetComponent<Text>();
     }
 
     // Update is called once per frame
@@ -41,7 +43,10 @@ public class SinkScript : MonoBehaviour
                 dirtyDish.transform.rotation= Quaternion.Euler(0f, 0f, -90f);
                 Destroy(dirtyDish, 10f);
                 instruction.text = "";
-                
+
+                ScoreManager.playerScore += scoreValue;
+                text.text = ScoreManager.playerScore.ToString();
+               
             }
         }
         else if (busboyScript.handsAreFull)

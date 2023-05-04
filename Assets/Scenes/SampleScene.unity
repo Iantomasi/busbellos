@@ -9836,7 +9836,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 
+  m_Text: 00
 --- !u!222 &1055664059
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -12858,6 +12858,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   instruction: {fileID: 654182050}
   dirtyPlate: {fileID: 1059892529}
+  scoreValue: 20
 --- !u!114 &1725055530
 MonoBehaviour:
   m_ObjectHideFlags: 0
