@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.AI;
 
 public class ChasePlayer : MonoBehaviour
 {
@@ -11,18 +12,21 @@ public class ChasePlayer : MonoBehaviour
     public GameObject target;
     public float speed;
     private float distance;
+
+    
     //public float bossDistance;
 
     // Start is called before the first frame update
     void Start()
     {
         animator = GetComponent<Animator>();
+        
     }
 
     // Update is called once per frame
     void Update()
     {
-
+        
         float val_x = Input.GetAxis("Horizontal");
         float val_y = Input.GetAxis("Vertical");
 
@@ -56,8 +60,7 @@ public class ChasePlayer : MonoBehaviour
 
         transform.position = Vector2.MoveTowards(this.transform.position, target.transform.position, speed * Time.deltaTime);
         //transform.rotation = Quaternion.Euler(Vector3.forward * angle);
-
-
+        
     }
 }
 
