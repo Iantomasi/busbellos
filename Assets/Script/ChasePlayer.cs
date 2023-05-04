@@ -10,23 +10,33 @@ public class ChasePlayer : MonoBehaviour
 
 
     public GameObject target;
+   // private Vector3 target;
     public float speed;
     private float distance;
+    NavMeshAgent agent;
 
-    
     //public float bossDistance;
 
+
+    private void Awake()
+    {
+        agent = GetComponent<NavMeshAgent>();
+        agent.updateRotation = false;
+        agent.updateUpAxis = false;
+    }
     // Start is called before the first frame update
     void Start()
     {
         animator = GetComponent<Animator>();
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        //SetTargetPosition();
+        // SetAgentPosition();
+
         float val_x = Input.GetAxis("Horizontal");
         float val_y = Input.GetAxis("Vertical");
 
@@ -47,12 +57,12 @@ public class ChasePlayer : MonoBehaviour
         }
 
 
-        else if(val_x > 0) //then set direction to 4
+        else if (val_x > 0) //then set direction to 4
         {
             animator.SetInteger("direction", (int)MoveDirection.RIGHT);
         }
 
-       
+
         distance = Vector2.Distance(transform.position, target.transform.position);
         Vector2 direction = target.transform.position - transform.position;
         direction.Normalize();
@@ -60,10 +70,22 @@ public class ChasePlayer : MonoBehaviour
 
         transform.position = Vector2.MoveTowards(this.transform.position, target.transform.position, speed * Time.deltaTime);
         //transform.rotation = Quaternion.Euler(Vector3.forward * angle);
-        
-    }
-}
 
+
+    }
+    /*void SetTargetPosition()
+    {
+        if (Input.GetMouseButton(0))
+        {
+            target = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        }
+    }
+    void SetAgentPosition()
+    {
+        agent.SetDestination(new Vector3(target.x, target.y, transform.position.z));
+    }
+}*/
+}
 
 public enum MoveDirection
 {
