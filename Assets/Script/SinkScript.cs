@@ -13,12 +13,16 @@ public class SinkScript : MonoBehaviour
     GameObject dirtyPlate;
     FamilyHealthBar healthBar;
 
+    Text score;
+
     bool isColliding = false;
     // Start is called before the first frame update
     void Start()
     {
         busboyScript = GameObject.FindGameObjectWithTag("Player").GetComponent<BusboyScript>();
         healthBar = GameObject.Find("HealthBar").GetComponent<FamilyHealthBar>();
+
+        score =  GameObject.FindGameObjectWithTag("score").GetComponent<Text>();
     }
 
     // Update is called once per frame
@@ -37,6 +41,7 @@ public class SinkScript : MonoBehaviour
                 dirtyDish.transform.rotation= Quaternion.Euler(0f, 0f, -90f);
                 Destroy(dirtyDish, 10f);
                 instruction.text = "";
+                score += 20;
             }
         }
         else if (busboyScript.handsAreFull)
@@ -44,6 +49,8 @@ public class SinkScript : MonoBehaviour
             instruction.text = "Carrying Dishes... Bring them to the sink";
         }
         
+        
+
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -53,9 +60,11 @@ public class SinkScript : MonoBehaviour
             if (collision.gameObject.tag == "Player")
             {
                 isColliding = true;
-
+                
             }
         }
+
+
     }
 
     private void OnCollisionExit2D(Collision2D collision)

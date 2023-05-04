@@ -9,6 +9,7 @@ TagManager:
   - plate
   - busboy
   - dirty
+  - score
   layers:
   - Default
   - TransparentFX
