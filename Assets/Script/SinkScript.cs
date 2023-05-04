@@ -41,7 +41,7 @@ public class SinkScript : MonoBehaviour
                 dirtyDish.transform.rotation= Quaternion.Euler(0f, 0f, -90f);
                 Destroy(dirtyDish, 10f);
                 instruction.text = "";
-                score += 20;
+                
             }
         }
         else if (busboyScript.handsAreFull)
