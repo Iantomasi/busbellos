@@ -20,13 +20,29 @@ public class BossDamage : MonoBehaviour
 
     public void OnCollisionEnter2D(Collision2D enemy)
     {
-       if(enemy.gameObject.CompareTag("Player")) {
-
+        if (enemy.gameObject.CompareTag("Player"))
+        {
             var healthBar = GameObject.Find("HealthBar").GetComponent<FamilyHealthBar>();
-            
-           healthBar.health -= healthDamage;
+            StartCoroutine(InflictDamageOverTime(healthBar));
         }
     }
 
+    IEnumerator InflictDamageOverTime(FamilyHealthBar healthBar)
+    {
+        float elapsedTime = 0f;
+        float damagedAmount = 0f;
+        float damageAmountPerSecond = healthDamage / healthBar.reductionDuration;
+
+        while (elapsedTime < healthBar.reductionDuration)
+        {
+            damagedAmount += damageAmountPerSecond * Time.deltaTime;
+            healthBar.health -= damageAmountPerSecond * Time.deltaTime;
+            healthBar.health = Mathf.Clamp(healthBar.health, 0f, healthBar.maxHealth);
+            healthBar.healthBar.fillAmount = healthBar.health / healthBar.maxHealth;
+
+            elapsedTime += Time.deltaTime;
+            yield return null;
+        }
+    }
 
 }

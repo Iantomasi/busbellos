@@ -11,10 +11,17 @@ public class FamilyHealthBar : MonoBehaviour
     public float health = 100f;
     public float damagePerSecond = 8f;
     public float replenishHealth = 10f;
+    public float replenishDuration = 1f;
+    public float reductionDuration = 1f;
+    private float replenishAmountPerSecond; 
+
+    private Coroutine replenishCoroutine; 
+
 
     public Image healthBar;
 
     private Coroutine damagePerSecondCoroutine;
+    private Coroutine damage;
 
     // Start is called before the first frame update
     void Start()
@@ -22,6 +29,7 @@ public class FamilyHealthBar : MonoBehaviour
 
         healthBar.fillAmount = 1f;
         damagePerSecondCoroutine = StartCoroutine(DamagePerSecond());
+        damage= StartCoroutine(Damage());
     }
 
     // Update is called once per frame
@@ -48,8 +56,13 @@ public class FamilyHealthBar : MonoBehaviour
 
     IEnumerator DamagePerSecond()
     {
-        while (true)
+
+        float elapsedTime = 0f;
+        float damagedAmount = 0f;
+
+        while (elapsedTime < reductionDuration)
         {
+            damagedAmount +=
             health -= damagePerSecond * Time.deltaTime;
             healthBar.fillAmount = health / maxHealth;
             yield return null;
@@ -58,20 +71,62 @@ public class FamilyHealthBar : MonoBehaviour
 
     }
 
+    IEnumerator Damage()
+    {
+        float elapsedTime = 0f;
+        float damagedAmount = 0f;
+        float damageAmountPerSecond = damagePerSecond / reductionDuration;
+
+        while (elapsedTime < reductionDuration)
+        {
+            damagedAmount += damageAmountPerSecond * Time.deltaTime;
+            health -= damageAmountPerSecond * Time.deltaTime;
+            health = Mathf.Clamp(health, 0f, maxHealth);
+            healthBar.fillAmount = health / maxHealth;
+
+            elapsedTime += Time.deltaTime;
+            yield return null;
+        }
+    }
+
     public void Heal()
     {
 
-        health += replenishHealth;
-        health = Mathf.Clamp(health, 0f, maxHealth);
-        healthBar.fillAmount = health / maxHealth;
+        replenishAmountPerSecond = replenishHealth / replenishDuration;
+
+        // Start the replenish coroutine if it's not running already
+        if (replenishCoroutine == null)
+        {
+            replenishCoroutine = StartCoroutine(ReplenishHealthOverTime());
+        }
 
     }
 
-   /* private void OnTriggerEnter2D(Collider2D collision)
+    IEnumerator ReplenishHealthOverTime()
     {
-        if (collision.gameObject.CompareTag("heal"))
-       {
-            Heal();
+        float replenishedAmount = 0f;
+        float elapsedTime = 0f;
+
+        while (elapsedTime < replenishDuration)
+        {
+            replenishedAmount += replenishAmountPerSecond * Time.deltaTime;
+            health += replenishAmountPerSecond * Time.deltaTime;
+            health = Mathf.Clamp(health, 0f, maxHealth);
+            healthBar.fillAmount = health / maxHealth;
+
+            elapsedTime += Time.deltaTime;
+            yield return null;
         }
-    }*/
+
+        // Reset the coroutine reference
+        replenishCoroutine = null;
+    }
+
+    /* private void OnTriggerEnter2D(Collider2D collision)
+     {
+         if (collision.gameObject.CompareTag("heal"))
+        {
+             Heal();
+         }
+     }*/
 }
