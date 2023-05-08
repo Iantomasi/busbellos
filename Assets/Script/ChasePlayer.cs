@@ -77,6 +77,7 @@ public class ChasePlayer : MonoBehaviour
     }
     void SetAgentPosition()
     {
+        agent.speed = speed;
         agent.SetDestination(new Vector3(target.x, target.y, transform.position.z));
     }
 }
