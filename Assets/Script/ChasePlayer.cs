@@ -10,6 +10,7 @@ public class ChasePlayer : MonoBehaviour
 
     private Vector3 target;
     public GameObject player;
+    [HideInInspector]
     public float speed;
     private float distance;
     NavMeshAgent agent;
@@ -79,6 +80,18 @@ public class ChasePlayer : MonoBehaviour
     {
         agent.speed = speed;
         agent.SetDestination(new Vector3(target.x, target.y, transform.position.z));
+    }
+    public void SetDificultyToEasy()
+    {
+        speed = 2;
+    }
+   public void SetDificultyToMedium()
+    {
+        speed =3;
+    }
+    public void SetDificultyToHard()
+    {
+        speed = 4.5f;
     }
 }
 
