@@ -20,11 +20,14 @@ public class BetweenRoundScript : MonoBehaviour
         audioSource.clip = nopeSound;
         if (GlobalVariables.roundNumber >= 5)
         {
-            GlobalVariables.bossSpeed += 1f;
+            GlobalVariables.speeAddition += 0.2f;
+            GlobalVariables.bossSpeed += GlobalVariables.speeAddition;
+            GlobalVariables.bossDamage += 10;
         }
         else
         {
             GlobalVariables.bossSpeed += .5f;
+            GlobalVariables.bossDamage += 5;
         }
       
     }
@@ -57,7 +60,7 @@ public class BetweenRoundScript : MonoBehaviour
     public void upgradeSpeed()
     {
         if(GlobalVariables.money >= 40) { 
-            GlobalVariables.playerSpeed += 1;
+            GlobalVariables.playerSpeed += 0.5f;
             GlobalVariables.speed += 1;
             GlobalVariables.money -= 40;
         }
@@ -70,7 +73,7 @@ public class BetweenRoundScript : MonoBehaviour
     public void upgradeArmor()
     {
         if(GlobalVariables.money >= 60) { 
-        GlobalVariables.bossDamage -= 5;
+        GlobalVariables.bossDamage -= 15;
             GlobalVariables.armor += 1;
             GlobalVariables.money -= 60;
         }

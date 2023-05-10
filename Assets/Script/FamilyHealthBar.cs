@@ -46,6 +46,18 @@ public class FamilyHealthBar : MonoBehaviour
         {
             SceneManager.LoadScene("GameOver");
         }
+        if (health <= 30)
+        {
+            healthBar.color = Color.red;
+        }
+        else if(health <=60 && health > 30)
+        {
+            healthBar.color = Color.yellow;
+        }
+        else
+        {
+            healthBar.color = Color.green;
+        }
     }
 
 

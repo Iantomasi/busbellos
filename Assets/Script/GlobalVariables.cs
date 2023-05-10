@@ -11,4 +11,5 @@ public class GlobalVariables : MonoBehaviour
     public static int money = 0;
     public static int armor = 0;
     public static int speed = 1;
+    public static float speeAddition = 1;
 }
