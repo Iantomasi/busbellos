@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class BossDamage : MonoBehaviour
 {
-    public float healthDamage;
     public AudioClip hitSound;
     public AudioSource audioSource1;
 
@@ -34,7 +33,7 @@ public class BossDamage : MonoBehaviour
     {
         float elapsedTime = 0f;
         float damagedAmount = 0f;
-        float damageAmountPerSecond = healthDamage / healthBar.reductionDuration;
+        float damageAmountPerSecond = GlobalVariables.bossDamage / healthBar.reductionDuration;
 
         while (elapsedTime < healthBar.reductionDuration)
         {

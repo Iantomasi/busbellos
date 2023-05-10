@@ -6,13 +6,15 @@ using UnityEngine.UI;
 public class GameOverScore : MonoBehaviour
 {
 
-    public Text gameOverScoreText;
+    public Text gameOverRoundText;
+    private int roundsSurvived;
 
     // Start is called before the first frame update
     void Start()
     {
-        gameOverScoreText.text = Score.scoreCount.ToString();
-        Score.scoreCount = 0;
+        roundsSurvived = GlobalVariables.roundNumber - 1;
+        gameOverRoundText.text = roundsSurvived.ToString();
+        GlobalVariables.money = 0;
     }
 
     // Update is called once per frame

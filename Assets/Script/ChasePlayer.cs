@@ -11,10 +11,8 @@ public class ChasePlayer : MonoBehaviour
     private Vector3 target;
     public GameObject player;
     [HideInInspector]
-    public float speed;
     private float distance;
     NavMeshAgent agent;
-
 
     private void Awake()
     {
@@ -26,7 +24,6 @@ public class ChasePlayer : MonoBehaviour
     void Start()
     {
         animator = GetComponent<Animator>();
-
     }
 
     // Update is called once per frame
@@ -78,20 +75,26 @@ public class ChasePlayer : MonoBehaviour
     }
     void SetAgentPosition()
     {
-        agent.speed = speed;
+        agent.speed = GlobalVariables.bossSpeed;
         agent.SetDestination(new Vector3(target.x, target.y, transform.position.z));
     }
     public void SetDificultyToEasy()
     {
-        speed = 2;
+        GlobalVariables.bossSpeed = 2;
+        GlobalVariables.playerSpeed = 4;
+        GlobalVariables.bossDamage = 50;
     }
    public void SetDificultyToMedium()
     {
-        speed =3;
+        GlobalVariables.bossSpeed =3;
+        GlobalVariables.playerSpeed = 5;
+        GlobalVariables.bossDamage = 50;
     }
     public void SetDificultyToHard()
     {
-        speed = 4.5f;
+        GlobalVariables.bossSpeed = 4.5f;
+        GlobalVariables.playerSpeed = 5;
+        GlobalVariables.bossDamage = 50;
     }
 }
 

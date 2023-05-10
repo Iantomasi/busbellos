@@ -24,11 +24,12 @@ public class SinkScript : MonoBehaviour
         busboyScript = GameObject.FindGameObjectWithTag("Player").GetComponent<BusboyScript>();
         healthBar = GameObject.Find("HealthBar").GetComponent<FamilyHealthBar>();
         scoreHolder = GameObject.Find("ScoreText").GetComponent<Text>();
+        scoreHolder.text = GlobalVariables.money.ToString();
     }
 
     // Update is called once per frame
     void Update()
-    {
+    {  
         if (busboyScript.handsAreFull && isColliding)
         {
 
@@ -43,10 +44,9 @@ public class SinkScript : MonoBehaviour
                 Destroy(dirtyDish, 10f);
                 instruction.text = "";
 
-                Score.scoreCount += scoreValue;
-                scoreHolder.text = Score.scoreCount.ToString();
+                GlobalVariables.money += scoreValue;
+                scoreHolder.text = GlobalVariables.money.ToString();
 
-               
             }
         }
         else if (busboyScript.handsAreFull)
