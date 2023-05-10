@@ -5,11 +5,13 @@ using UnityEngine;
 public class BossDamage : MonoBehaviour
 {
     public float healthDamage;
+    public AudioClip hitSound;
+    public AudioSource audioSource1;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        audioSource1.clip = hitSound;
     }
 
     // Update is called once per frame
@@ -24,6 +26,7 @@ public class BossDamage : MonoBehaviour
         {
             var healthBar = GameObject.Find("HealthBar").GetComponent<FamilyHealthBar>();
             StartCoroutine(InflictDamageOverTime(healthBar));
+            audioSource1.Play();
         }
     }
 
