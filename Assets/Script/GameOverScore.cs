@@ -12,6 +12,7 @@ public class GameOverScore : MonoBehaviour
     void Start()
     {
         gameOverScoreText.text = Score.scoreCount.ToString();
+        Score.scoreCount = 0;
     }
 
     // Update is called once per frame
