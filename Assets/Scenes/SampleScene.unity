@@ -720,6 +720,7 @@ GameObject:
   - component: {fileID: 218217097}
   - component: {fileID: 218217099}
   - component: {fileID: 218217100}
+  - component: {fileID: 218217101}
   m_Layer: 0
   m_Name: Scripts
   m_TagString: Untagged
@@ -783,6 +784,42 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   startValue: 45
   counter: {fileID: 1591726702}
+--- !u!114 &218217101
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 218217096}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 124f8a7e1df616a46a925d99ad3608a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  puddlePrefab: {fileID: 1832522268770236895, guid: 993a5d3b30aed73439b9b6e70dbda3a7, type: 3}
+  beginSpawnTime: 5
+  spawnTimeInterval: 6
+  puddleSpawnsPoints:
+  - {x: -6, y: 8.5}
+  - {x: -6, y: 4.5}
+  - {x: -6, y: -0.5}
+  - {x: -6, y: -5.5}
+  - {x: -6, y: -8.65}
+  - {x: 1, y: 8.5}
+  - {x: 1, y: 4.5}
+  - {x: 1, y: -0.5}
+  - {x: 1, y: -5.5}
+  - {x: 1, y: -8.65}
+  - {x: 8, y: 8.5}
+  - {x: 8, y: 4.5}
+  - {x: 8, y: -0.5}
+  - {x: 8, y: -5.5}
+  - {x: 8, y: -8.65}
+  - {x: 15, y: 8.5}
+  - {x: 15, y: 4.5}
+  - {x: 15, y: -0.5}
+  - {x: 15, y: -5.5}
+  - {x: 15, y: -8.65}
 --- !u!1 &284445404
 GameObject:
   m_ObjectHideFlags: 0

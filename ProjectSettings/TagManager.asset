@@ -10,6 +10,7 @@ TagManager:
   - busboy
   - dirty
   - score
+  - Puddle
   layers:
   - Default
   - TransparentFX
